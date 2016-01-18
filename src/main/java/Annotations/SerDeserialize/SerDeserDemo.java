@@ -70,7 +70,7 @@ public class SerDeserDemo {
     }
 
 
-    
+
     public static Map getFields(HumanBeing hb) throws IllegalAccessException {
         Map res = new HashMap<>();
         Class<?> cls =hb.getClass();
